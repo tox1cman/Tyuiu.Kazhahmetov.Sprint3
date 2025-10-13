@@ -8,10 +8,10 @@ namespace Tyuiu.Kazhahmetov.Spritn3.Task0.V15.Lib
             double s = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                double res = ((Math.Pow(value, i)) + (2 / (i + 1))) * (Math.Sin(value));
+                double res = ((Math.Pow(value, i)) + (2.0 / (i + 1))) * (Math.Sin(value));
                 s += res;
             }
-            return Math.Round(s, 1);
+            return Math.Round(s, 3);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Tyuiu.Kazhahmetov.Spritn3.Task0.V15.Test
             int startValue = 1;
             int stopValue = 10;
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            double wait = 2.1;
+            double wait = 4.063;
             Assert.AreEqual(wait, res);
         }
     }
