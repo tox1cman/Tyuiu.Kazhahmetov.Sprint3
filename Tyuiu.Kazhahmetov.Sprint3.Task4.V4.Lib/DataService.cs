@@ -18,7 +18,7 @@ namespace Tyuiu.Kazhahmetov.Sprint3.Task4.V4.Lib
                 }
                 
             }
-            return Math.Round(res, 2);
+            return Math.Round(res, 3);
         }
     }
 }
