@@ -13,21 +13,9 @@ namespace Tyuiu.Kazhahmetov.Sprint3.Task7.V9.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
-                {
-                    valueArray[count] = 0.0;
-                    count++;
-                    continue;
-                }
-
-                else
-                {
                     y = Math.Round(((2 * x - 3) / (Math.Cos(x) - 2 * x)) + 5 * x - Math.Sin(x), 2);
                     valueArray[count] = y;
                     count++;
-                }
-
-
             }
             return valueArray;
         }
